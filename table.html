@@ -2,6 +2,21 @@
 <html>
     <head>
         <title>ADVANCED TABLE</title>
+        <style>
+        * {
+            font-family: comic sans ms;
+            text-align: center;
+        }
+        .yellow {
+            background-color: rgba(255, 255, 0, 0.356);
+        }
+        .green {
+            background-color: rgba(0, 100, 25, 0.26);
+        }
+        .indigo{
+            background-color: rgba(137, 43, 226, 0.281);
+        }
+        </style>
     </head>
     <body>
         <table border="1">
@@ -19,8 +34,8 @@
             </tr>
             <tr>
                 <td rowspan="2">Monday</td>
-                <td rowspan="2">8:00pm</td>
-                <td rowspan="2">5:00pm</td>
+                <td rowspan="2" class="yellow">8:00pm</td>
+                <td rowspan="2" class="indigo">5:00pm</td>
                 <td>Introduction to XML</td>
             </tr>
             <tr>
@@ -28,35 +43,24 @@
             </tr>
             <tr>
                 <td rowspan="3">Tuesday</td>
-                <td>8:00am</td>
-                <td>11:00am</td>
-                <td rowspan="1.5">XPath</td>
+                <td class="yellow">8:00am</td>
+                <td class="yellow">11:00am</td>
+                <td rowspan="1">XPath</td>
             </tr>
             <tr>
-                <td>11:00am</td>
-                <td>2:00pm</td>
-                <td rowspan="1.5">XSL Transformations</td>
+                <td class="yellow">11:00am</td>
+                <td class="green">2:00pm</td>
+                <td rowspan="2">XSL Transformations</td>
             </tr>
             <tr>
-                <td>2:00pm</td>
-                <td>5:00pm</td>
+                <td class="green">2:00pm</td>
+                <td class="indigo">5:00pm</td>
             </tr>
             <tr>
                 <td>Wednesday</td>
-                <td>8:00am</td>
-                <td>12:00pm</td>
-                <td>
-                    <table border="5">
-                        <tr>
-                            <td>sr no</td>
-                            <td>name</td>
-                        </tr>
-                        <tr>
-                            <td>1.</td>
-                            <td>rahul</td>
-                        </tr>
-                    </table>
-                </td>
+                <td class="yellow">8:00am</td>
+                <td class="green">12:00pm</td>
+                <td>XSL formatting objects</td>
             </tr>
 
         </table>
