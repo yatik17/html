@@ -1,0 +1,54 @@
+* {
+    font-family: times new roman;
+    box-sizing: border-box;
+    background-color: bisque;
+    margin: 0px;
+}
+
+#logo {
+
+}
+
+#logoImg {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#logoName {
+    font-size: 70px;
+    float: left;
+    }
+#list {
+    margin: 0;
+    list-style: none;
+    padding: 0px;
+    background-color: #ff6b6b;
+}
+
+#list li {
+    display: inline-block;
+    padding: 10px;
+    color: #000000;
+    font-family: sans-serif;
+    background-color: #ff6b6b;
+
+}
+.clear-fix {
+    clear: both;
+}
+
+#listSec {
+    border: 2   px white solid;
+   
+    color: white;
+    width: 100%; 
+    position: sticky;
+    top: 0;                                                            
+}
+.a {
+    border: 2px black solid;
+    height: 250px;
+    width: 200px;    
+}
+
