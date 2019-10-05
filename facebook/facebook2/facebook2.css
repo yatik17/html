@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+#header {
+    background-color: #3F5C9A;
+    padding: 1em 0;
+    height: 87px;
+    border-bottom: 1px solid #192d56;
+    margin-bottom: 30px;
+    
+}
+#top-container {
+    display: flex;
+}
+#top-left, #top-right  {
+    flex: 1;
+}
+#top-right {
+    text-align: right;
+    position: relative;
+}
+#top-right::after {
+    content: "";
+    clear: both;
+    width: 100%;
+}
+#top-right table {
+    width: 90%;
+}
+#table {
+    text-align: left;
+    position: absolute;
+    right: 0;
+}
+ 
+#table tr td {
+    color: #fff; 
+    font-size: 13px;
+}
+.clear {
+    clear: both;
+    width: 100%;
+}
+#top-right input[type = "text"],
+#top-right input[type = "password"] {
+    border:1px solid #243c6f;
+    padding: 5px;
+    outline: none;
+}
+#top-right button, #top-right input[type="submit"] {
+    background-color: #5e7dbd;
+    color: #ffffff;
+    border:1px solid #173471;
+    padding: 5px;
+}
+#middle-container {
+    display: flex;
+}
+#table2 tr td {
+   
+    border: 3px white solid;
+    
+}
+#middle-left {
+    flex: 1;
+}
+#middle-right {
+    flex: 1;
+    
+}
+#middle-right h1 {
+    padding: 5px;
+    font-size: 35px;
+}
+ #table2 {
+width: 100%;
+font-size: 10px;
+    }
+
+#table2 tr td input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    
+    border: #19385680 1px solid;
+}
+#middle-right button {
+background-color: #5C8F47;
+width: 50%;
+padding: 10px;
+border-radius: 5px;
+color: #fff;
+font-size: 20px;
+}
+#terms {
+    font-size: 12px;
+}

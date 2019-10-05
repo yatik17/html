@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'raleway', sans-serif;
+    
+}
+#header {
+    background-color: black;
+    width: 100%;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#header ul li a {
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding: 20px 10px;
+    transition: background-color .2s ease-in-out;
+}
+#header ul li a:hover {
+    background-color: #fff;
+    color: black;
+    
+}
+#header ul li {
+    display: inline-block;
+    
+}
+
+#banner {
+    background-image: url('imgs/_banner.jpg');
+    background-size: cover;
+    height: 600px;
+    
+}
+#banner h3  {
+    
+    font-size: 4em;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 20px;
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold !important;
+    transition: all .7s ease-in-out;
+}
+
+#banner p {
+    display: inline-block;
+    color: #fff;
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 2px 3px #3336;
+}
+
+#banner p i {
+    color: red;
+    text-shadow: none;
+}
+#footer div,#footer {
+    color: #fff;
+    background-color: black;
+    padding: 10px ;
+}
+#footer section {
+    display: flex;
+   
+}
+#footer section ul li a {
+    
+    color: #fff ;
+    
+}
+#footer section ul {
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

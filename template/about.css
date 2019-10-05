@@ -51,5 +51,6 @@ display: inline-block;
     text-align: center;
     width: 100%;
     padding: 15px 0px;
-    background-color: rgba(128, 128, 128, 0.356);
+    background-color: black;
+    color: white;
 }

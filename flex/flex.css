@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    font-family: comic sans ms;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #ff4756;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    border: 4px white solid;
+    border-bottom: 0;
+    position: sticky;
+    top: 0;
+}
+
+ ul {
+    display: flex;
+    background-color: #ff6b81;
+    border: 4px #ffffff solid;
+     list-style: none;
+    position: sticky;
+    top: 50px;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;        
+}
+
+#gow {
+    display: flex;
+    background-color: #57606f;
+    border: 2px #fff solid;
+    color: #fff;                    
+}
+
+.img {
+    height: 200px;
+    width: 150px;
+    margin: 5px;                
+    border: 2px black solid;
+    }
+
+#a9 {
+    display: flex;
+    border :2px #57606f solid;
+    background-color: #57606f;
+    color: #fff;
+}
+
+#lorem {
+    background-color: #fff  ;
+    }

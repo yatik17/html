@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header {
+    display: flex;
+    background-color: #3B5998;
+    color: white;
+    padding: 10px;
+}
+#h1 {
+    flex: 5;
+    font-size: 35px;
+}
+#h2 {
+    flex: 2;
+}
+#h3 {
+    flex: 2;
+}
+#h3 form a {
+    color: #77A7FF;
+}
+#h4 {
+    flex: 2;
+}
+#h4 button {
+    background-color: #365999c2;
+    color: white;
+    outline: none;
+    
+}
+#middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+#m1 {
+    width: 35%;
+    font-size: 25px;
+}
+#m2 {
+    width: 35%;
+}
+#m2 h1 {
+    font-size: 35px;
+}
+#m2 form {
+    padding: 20px;
+}
+.name {
+    width: 49%;
+    border-radius: 5px;
+    padding: 2px;
+}
+.pass {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px;
+}
+#sign {
+    background-color: rgba(0, 128, 0, 0.829);
+    width: 15%;
+    padding: 5px;
+    
+    
+}
